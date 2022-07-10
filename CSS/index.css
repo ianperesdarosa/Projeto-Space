@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lemon';
+    src: url(/FONTS/lemon_milk/LEMONMILK-BoldItalic.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Lemon-Light';
+    src: url(/FONTS/lemon_milk/LEMONMILK-Light.otf) format('opentype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font1: Lemon;
+    --font2: Lemon-Light;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-image: url(/IMG/);
+
+    
+}
